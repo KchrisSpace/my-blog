@@ -5,6 +5,11 @@
     display: flex;
     flex-direction: column;
 }
+p{
+    font-size: 1.1rem;
+    color: seashell;
+    font-weight: 700;
+}
 
 .headimg{
     top: 0px;
@@ -20,7 +25,8 @@
     animation: headload 0.9s linear;
 }
 .headimg h1{
-    color: rgb(92, 136, 177);
+    
+    color: rgb(92, 136, 177,0.4);
     font-size: 5em;
     text-align: center;
     line-height: 200px;

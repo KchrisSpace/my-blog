@@ -1,7 +1,25 @@
 @charset "utf-8";
+@font-face {
+
+  font-family: "kawai";
+  src: url('../ttf/爱心流星体.ttf') format('truetype');
+}
+
+h1,h2,h3{
+  font-family: "kawai";
+}
+  
+@media screen and (max-width: 1268px) {
+ .homenav{
+    display: none;
+  }
+  .title{
+    display: none;
+  }
+}
 
 .titleimg {
-  background-image: url("../image/head.jpeg");
+  background-image: url("../image/head.jpegs");
   /* opacity: 0.9; */
   /* 放大背景 */
   background-position: translatex(10%) tyranslatey(30%);
@@ -19,7 +37,7 @@
 .titleimg .title {
   background-image: url("../image/head.jpeg");
   color: rgba(0, 22, 187, 0.5);
-  width: 1540px;
+  width: 100vw;
   padding: 200px;
   font-size: 100px;
   font-weight: bolder;
@@ -108,12 +126,14 @@
   color: rgb(28, 44, 68);
   height: 30px;
   line-height: 30px;
+
 }
 
 .pt .txt p {
   margin-top: -2px;
   word-wrap: break-word;
-  color: rgb(114, 182, 202);
+  color: rgba(17,67,131,0.5);
+  font-weight: 600;
 }
 @keyframes load {
   0% {
